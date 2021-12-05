@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+
+
+
+
+</style>
+</head>
+<body>
+
+
+
+<div class="full">
+<div class="row">
+ 
+  <div class="column-1" >
+    <div class="div1"><i class="fas fa-bars" style="font-size:24px;"></i></div><br>
+    <div class="div1"><i class="fas fa-folder-open" style="font-size:24px;"></i></i></div><br>
+    <div class="div1"><i class="fas fa-cloud" style="font-size:20px;"></i></div><br>
+    <div class="div1"><i class="fas fa-archive" style="font-size:24px;"></i></div><br>
+    <div class="div1" style="margin-top:270px;"><i class="fas fa-cloud" style="font-size:24px;"></i></div></i>
+    <br>
+    <div class="div1"><i class="fas fa-bell" style="font-size:24px;"></i></i></div>
+
+  </div>
+  <div class="column-2" style="background-color:#2e49b3;">
+    <!-- Search bar -->
+    <div class="row">
+      <div class="column-00"><i class="fas fa-search"></i></div>
+      <div class="column-0">
+        <form class="example" >
+  <!-- <div><i class="fa fa-search"></i> -->
+            <input type="text" placeholder="Search.." name="search">
+  <!-- </div> -->
+  
+    </form>
+
+    
+      </div>
+      
+      
+    </div>
+    <!-- heading line and setting option -->
+    <div class="row">
+      <div class="column-01">
+        <h1><b>Weather</b> Forecast</h1>
+      </div>
+      <div class="column-02">
+        <i class="fas fa-cog"></i>
+    
+      </div>
+      
+      
+    </div>
+     <!-- big box and small box show -->
+    <div class="row">
+     <div class="column-2-1" style="">
+      <!-- <img src="ass1.png"> -->
+        
+      </div>
+       <div class="column-2-2">
+        
+      </div>
+      <div class="column-2-3">
+        
+      </div>
+     </div>
+
+     <div class="row">
+      <div class="column-2-1">
+        
+      </div>
+       <div class="column-2-2">
+        
+      </div>
+      <div class="column-2-3">
+        
+      </div>
+     </div>
+
+  </div>
+  <!-- <div class="vl"></div> -->
+
+  <!-- last carousol slidshow -->
+
+  <div class="column-3" style="background-color:#3d94eb;">
+    <div class="slideshow-container">
+
+
+<div class="mySlides fade">
+  <!-- <div class="numbertext">1 / 3</div> -->
+  
+  
+ 
+  <div class="div2"><i class="fas fa-sun" style="font-size:44px;"></i></div>
+  <h2 class="ak">It's hot today!</h2>
+  <p class="para">Be sure to grab a bottle <br>of cold water</p>
+  
+  
+  <h3 class="ak">INFO</h3>
+  <button class="btn"><i class="fas fa-wind"></i></i></button>
+  <button class="btn"><i class="fas fa-tint"></i></button>
+  <button class="btn"><i class="fas fa-thermometer-quarter"></i></button>
+  <br><br>
+  <button class="btn"><i class="fas fa-plus"></i></button>
+  <h3 class="ak">CITY</h3>
+  <button class="btn"><i class="fas fa-cloud-showers-heavy"></i></button>    pairs 17'C<br>
+  <button class="btn"><i class="fas fa-umbrella"></i></button>    London 13'C<br>
+  <button class="btn"><i class="fas fa-plus"></i></button>   
+  <h4></h4>
+
+</div>
+
+ <div class="mySlides fade">
+  
+  
+    <div class="div2"><i class="fas fa-sun" style="font-size:44px;"></i></div>
+    <h2 class="ak">It's hot today!</h2>
+    <p class="para">Be sure to grab a bottle <br>of cold water</p>
+  
+  
+    <h3 class="ak">INFO</h3>
+    <button class="btn"><i class="fa fa-home"></i></button>
+    <button class="btn"><i class="fa fa-bars"></i></button>
+    <button class="btn"><i class="fa fa-trash"></i></button>
+    <br><br>
+    <button class="btn"><i class="fa fa-home"></i></button>
+    <h3 class="ak">CITY</h3>
+    <button class="btn"><i class="fa fa-trash"></i></button>    pairs 17'C<br>
+    <button class="btn"><i class="fa fa-trash"></i></button>    London 13'C<br>
+    <button class="btn"><i class="fa fa-trash"></i></button>   
+    <h4></h4>
+ </div>
+
+
+
+
+<!-- <div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img_mountains_wide.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div> -->
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <!-- <span class="dot" onclick="currentSlide(3)"></span>  -->
+</div>
+  </div>
+  <!-- <div class="column" style="background-color:#ddd;">
+    <h2>Column 4</h2>
+    <p>Some text..</p>
+  </div> -->
+</div>
+</div>
+
+
+<!-- Script JS  -->
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html>
