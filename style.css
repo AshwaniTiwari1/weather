@@ -129,8 +129,8 @@ body{
     margin:0px;
   }
   .column-2{
-    width:306px;
-    margin:2px;
+    width:82%;
+    margin-left:2px;
   }
   .column-3{
     width: 100%;
@@ -184,39 +184,56 @@ body{
 
   .column-2-1{
   float: left;
-  width: 35%;
-  padding: 10px;
+  width: 34%;
+  /*padding:10px;*/
   height: 230px;
   background-color:#ffffff;
   opacity:0.2; 
-  margin:10px 0px 10px 10px;
+  margin:20px 0px 10px 10px;
   border-radius:25px;
 
 }
 .column-2-2{
   float: left;
-  width: 22%;
+  width: 21%;
   /*padding: 50px 0px 0px 0px;*/
   height: 140px;
   background-color:#ffffff;
   opacity:0.2; 
-  margin:10px 10px 8px 8px;
+  margin:20px 10px 8px 8px;
   border-radius:20px;
 
 }
 .column-2-3{
   float: left;
-  width: 22%;
+  width: 21%;
   /*padding: 50px 0px 0px 0px;*/
   height: 140px;
   background-color:#ffffff;
   opacity:0.2; 
-  margin:10px 30px 10px 0px;
+  margin:20px 30px 10px 0px;
   border-radius:20px;
+
   }
 
-
+  .div1 {
+  width: 88% !important;
+  height: 45px;
+  border: 1px solid #bfbfbf;
+  margin:1px;
+  padding:2px;
+  border-radius:5px;
+  background-color:#c0c0c0;
 }
+i{
+ margin:0px !important;
+}
+
+.div1 {
+  opacity: 0.5;
+}
+
+ }
 
 /*End Responsive for mobile device*/
 
@@ -427,3 +444,4 @@ form.example::after {
   display: table;
 }
 /*End Search bar*/
+
